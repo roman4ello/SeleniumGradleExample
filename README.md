@@ -22,7 +22,8 @@
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-beta-3'
 
 3. Скачать chromedriver(geckodriver) с сайта selenium https://www.selenium.dev/documentation/en/webdriver/driver_requirements/#quick-reference
-4. В проекте указать путь к этому файлу. Если Вы используете MacOs, то Вам не нужно указывать драйвер, он автоматически будет искаться по пути: 
+4. В проекте указать путь к этому файлу. Если Вы используете MacOs, то Вам не нужно указывать драйвер, он автоматически будет искаться по пути:
+ "/usr/local/bin/HERE_DRIVER". Если его там нет, перенесите драйвер по этому пути.
  
- "/usr/local/bin/HERE_DRIVER". Если его там нет, перенсите его по этому пути.
 5. Выполнить запуск используя уже описанные методы в SeleniumPureExampleMain.java 
+  
